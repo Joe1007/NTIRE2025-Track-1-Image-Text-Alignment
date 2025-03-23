@@ -4,11 +4,11 @@
 ---
 The baseline code we use is from this [github](https://github.com/DYEvaLab/EvalMuse), so you should clone it first, then follow the steps to preprocessing the dataset, then run the code successfully .
 Use `git clone https://github.com/DYEvaLab/EvalMuse`.  
-And should download the final stage for [testing dataset](https://drive.google.com/file/d/1ZuCWg3-RLC8P82u6SbKtvGiWKt-BEHRT/view), and keep the path ‵EvalMuse/final_dataset`.  
+And should download the final stage for [testing dataset](https://drive.google.com/file/d/1ZuCWg3-RLC8P82u6SbKtvGiWKt-BEHRT/view), and keep the path `EvalMuse/final_dataset`.  
 
 2. Training Stage
 ---
-Replace the `fga_blip2.py` with our `fga_blip2.py`, and run 'train.sh' , you can reproduce the checkpoints under `EvalMuse\lavis\output\FGA-BLIP2`.  
+Replace the `fga_blip2.py` with our `fga_blip2.py`, and run `train.sh` , you can reproduce the checkpoints under `EvalMuse\lavis\output\FGA-BLIP2`.  
 (P.s. For convinienece, we offer the [checkpoints](https://drive.google.com/drive/u/0/folders/1fy_2KaHq_ygtSxB7FFzhwD3exjlsFDwP) we already trained before.  
 Please choose `checkpoint8`, and you shouldn't run the code for training stage)
 
